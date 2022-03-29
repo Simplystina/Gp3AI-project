@@ -36,7 +36,6 @@
     background: var(--gradient-bar);
     width: 38px;
     height: 3px;
-    margin: 0rem 0 0rem 0;
 }
 
 .features-content{
@@ -87,13 +86,16 @@
     line-height: 45px;
   }
   .features-title{
-      margin-left: 1rem;
+      margin-left: 0rem;
       margin-right: 3rem;
   }
   .feature-info{
       width: 100%;
   }
- 
+  .features-heading{
+    padding: 0rem;
+}
+
 }
 
 @media screen and (max-width:520px) {
