@@ -1,0 +1,132 @@
+.footer-section{
+    background: #031B34;
+    color: #ffffff;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+.footer-heading{
+    text-align: center;
+}
+.footer-heading h2{
+    font-size: 40px;
+    font-family: var(--font-family);
+    line-height: 55px;
+    background-image: var(--gradient-bar);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    padding: 5rem 3rem 2rem 3rem;
+}
+.footer-heading button{
+    width: 218px;
+    height: 65px;
+    border: 1px solid #ffffff;
+    color: white;
+    background-color: #031B34;
+    margin: 2rem 0 6rem 0;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 0;
+}
+.footer-logo p{
+    max-width: 150px;
+    font-size: 12px;
+    font-family: var(--font-family-2);
+    line-height: 14px;
+}
+.footer-logo img{
+    width: 118px;
+    height: 30px;
+}
+.footer-section h4{
+    font-family: Gilroy-Bold;
+    size: 14px;
+    line-height: 16px;
+    padding-bottom: 1rem;
+}
+
+.footer-section p{
+    line-height: 20.06px;
+    font-size: 12px;
+    font-family: var(--font-family-2);
+    padding: 1rem 0rem;
+     width: 120px;
+}
+.footer-copywrite{
+    text-align: center;
+    padding: 4rem 0 1rem 0;
+}
+
+@media screen and (max-width:700px) {
+    .footer-container{
+        width: 80%;
+        margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 50px
+    }
+    .footer-links,
+    .footer-company,
+    .footer-info,
+    .footer-logo{
+    width: 80%;
+    margin: 0 3rem;
+  }
+  .footer-heading h2{
+    font-size: 35px;
+    font-family: var(--font-family);
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width:520px) {
+    .footer-container{
+      grid-template-columns: repeat(1, 1fr);
+      gap: 50px
+
+    }
+    .footer-logo p{
+        font-size: 14px;
+        max-width: 300px;
+        line-height: 25px;
+    }
+    .footer-logo img{
+        width: 138px;
+        height: 40px;
+    }
+    .footer-links,
+    .footer-company,
+    .footer-info,
+    .footer-logo{
+        margin: 0rem;
+  }
+  .footer-section h4{
+    font-size: 18px;
+    padding-bottom: 1rem;
+  }
+
+  .footer-section p{
+    line-height: 23.06px;
+    font-size: 14px;
+     width: 180px;
+    }
+  .footer-heading h2{
+    font-size: 30px;
+    font-family: var(--font-family);
+   
+  }
+  .footer-heading button{
+    margin: 2rem 0 4rem 0;
+  }
+
+}
+@media screen and (max-width:400px) {
+    .footer-heading h2{
+        font-size: 40px;
+        font-family: var(--font-family);
+        line-height: 55px;
+    }
+}

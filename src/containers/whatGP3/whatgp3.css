@@ -1,0 +1,192 @@
+.gpt3__whatgpt3 {
+    display: flex;
+    flex-direction: column;
+    background: var(--color-footer);
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    
+}
+  .whatgp3-section{
+    color: white;
+    margin: 4rem auto;
+    width: 90vw;
+}
+.whatgp3-underline{
+    background: var(--gradient-bar);
+    width: 38px;
+    height: 3px;
+}
+.whatgp3-heading-main{
+    padding: 4rem 0;
+}
+.whatgp3-heading-main h2{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 24px;
+   
+}
+.whatgp3-heading{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 1rem 1rem;
+}
+.whatgp3-heading p{
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 500;
+    max-width: 50rem;
+    line-height: 30px;
+    font-weight: 500;
+    color: #81AFDD;
+    padding: 4rem 0;
+    text-align: justify;
+}
+.whatgp3-heading h2{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 35px;
+}
+.whatgp3-heading-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+
+}
+.whatgp3-heading-2 h2{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: var(--font-family);
+    line-height: 45px;
+    background-image: var(--gradient-bar);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.whatgp3-heading-2 p{
+    font-family: var(--font-family);
+    font-size: 14px;
+    color: #FF8A71;
+    font-weight: 500;
+    line-height: 25px;
+
+}
+.whatgp3-contents{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2rem 1rem;
+    gap: 50px;
+}
+.whatgp3-contents h2{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 24px;
+    margin-top: -10px;
+    margin-bottom: 1rem;
+    line-height: 70px;
+}
+.whatgp3-contents p{
+    font-family: var(--font-family);
+    line-height: 30px;
+    font-size: 14px;
+    color: #81AFDD;
+    padding-bottom: 1.5rem;
+}
+@media screen and (max-width:864px) {
+    .whatgp3-heading{
+        display: block;
+    }
+    .whatgp3-heading p{
+        padding: 1rem 0;
+    }
+    .whatgp3-heading-main{
+        padding: 2rem 0; 
+    }
+    .whatgp3-contents{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 10px;
+        column-gap: 20px;
+    }
+    .whatgp3-content3{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+
+    }
+    .whatgp3-heading-2 h2{
+        font-size: 26px;
+        line-height: 40px;
+    }
+    
+}
+
+
+@media screen and (max-width:550px) {
+    .whatgp3-contents{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .whatgp3-content3{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+
+    }
+    .whatgp3-heading-2{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+        justify-content: center;
+       
+    }
+    .whatgp3-heading-2 h2{
+        padding-bottom: 0rem;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .whatgp3-heading-2 p{
+        font-size: 16px;
+        text-align: left;
+    }
+   
+    
+}
+
+@media screen and (max-width:520px) {
+   
+    .whatgp3-heading-2 h2{
+        padding-bottom: 0.5rem;
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .whatgp3-heading-2 p{
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width:390px) {
+    .whatgp3-contents h2{
+        font-size: 20px;
+    }
+    .whatgp3-heading-main h2{
+        font-size: 20px;
+    }
+}

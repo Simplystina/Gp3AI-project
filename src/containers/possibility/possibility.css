@@ -1,0 +1,101 @@
+.possibility-section{
+    display: flex;
+    flex-direction: row ;
+    width: 90vw;
+    margin: 4rem auto;
+}
+.image-container{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 2rem;
+}
+.image-container img{
+    width: 100% ;
+    height: 100%;
+}
+
+.possibility-contents{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0 1rem;
+}
+.possibility-heading1{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #71E5FF;
+   
+}
+.possibility-heading2{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FF8A71;
+}
+.possibility-contents h2{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: var(--font-family);
+    line-height: 40px;
+    background-image: var(--gradient-bar);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    padding: 1rem 0;
+}
+
+.possibility-contents p{
+    font-size: 16px;
+    font-family: var(--font-family);
+    line-height: 30px;
+    color: #81AFDD;
+    font-weight: 400;
+    margin: 0.5rem 0 1.9rem 0;
+}
+
+@media screen and (max-width:996px) {
+    .possibility-section{
+        flex-direction: column ;
+    }
+    .possibility-contents{
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-self: unset;
+        align-items: flex-start;
+        margin: 2rem 1rem;
+    }
+    .image-container img{
+        width: 100% ;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:550px) {
+        .image-container{
+            margin: 0rem 2rem;
+        }
+        .image-container img{
+            width: 100% ;
+            height: 100%;
+        }
+        .possibility-contents{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-self: unset;
+            align-items: flex-start;    
+        }
+        .possibility-contents p{
+            font-size: 14px;
+        }
+}
+

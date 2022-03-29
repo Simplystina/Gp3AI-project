@@ -1,0 +1,119 @@
+.section-features{
+    color: white;
+    margin: 3rem auto;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-heading{
+    width: 70%;
+    padding: 0 1rem;
+}
+
+.features-heading h2{
+    font-size: 30px;
+    font-family: var(--font-family);
+    font-weight: 800;
+    line-height: 50px;
+    background-image: var(--gradient-bar);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+  .features-heading p{
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 500px;
+    color: #FF8A71;
+    margin: 1rem 0;
+}
+
+.features-underline{
+    background: var(--gradient-bar);
+    width: 38px;
+    height: 3px;
+    margin: 0rem 0 0rem 0;
+}
+
+.features-content{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    place-content: center;
+
+}
+.features-title{
+     width: 130px;
+     margin-right: 4rem;
+     margin-left: 4rem;
+     text-align: left;
+  }
+
+  .features-title p{
+    font-family: var(--font-family);
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 800;
+  }
+  .feature-info{
+      width: 70%;
+  }
+.feature-info p{
+    color: #81AFDD;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: var(--font-family);
+    text-align: left;
+   
+}
+@media screen and (max-width:996px) {
+  .section-features{
+    display: block;
+   }
+   .features-heading{
+       width: 100%;
+  }
+  .features-heading h2{
+    font-size: 24px;
+    font-family: var(--font-family);
+    font-weight: 800;
+    line-height: 45px;
+  }
+  .features-title{
+      margin-left: 1rem;
+      margin-right: 3rem;
+  }
+  .feature-info{
+      width: 100%;
+  }
+ 
+}
+
+@media screen and (max-width:520px) {
+    .features-heading h2{
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .features-heading p{
+        font-size: 14px;
+        line-height: 30px;
+        margin: 1rem 0;
+    }
+    .features-title p{
+        font-size: 15px;
+        line-height: 30px;
+       
+      }
+      
+    .feature-info p{
+        font-size: 14px;
+        line-height: 30px;
+    }
+}

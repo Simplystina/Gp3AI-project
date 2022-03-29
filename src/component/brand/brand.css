@@ -1,0 +1,11 @@
+.brand-section{
+  margin: 3rem 0;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+  align-items: center;
+}
+.brand-section div{
+    max-width: 150px;
+    margin: 1rem;
+}
