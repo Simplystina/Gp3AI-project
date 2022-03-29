@@ -22,7 +22,7 @@
     font-family: var(--font-family);
     font-size: 40px;
     font-weight: 800;
-    line-height: 60px;
+    line-height: 70px;
     background-image: linear-gradient(#AE67FA
 ,    #F49867);
     background-size: 100%;
@@ -36,7 +36,7 @@
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 35px;
     color: #81AFDD;
     padding-bottom: 30px;
 }
@@ -166,7 +166,7 @@
     }
     .header-contents p{
         font-size: 14px;
-        line-height: 30px;
+    
     }
     .header-people{
         display: block;
