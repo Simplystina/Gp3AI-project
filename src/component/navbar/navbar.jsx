@@ -39,7 +39,7 @@ const Navbar = () => {
                 <button>Sign up</button>
               </div>
               {showMenu? <AiOutlineClose className='gpt3-icon-closed' onClick={()=>setShowMenu(!showMenu)}/> : <AiOutlineMenuUnfold className='gpt3-icon-opened' onClick={()=>setShowMenu(!showMenu)}/>}
-          </div>
+           </div>
         </div>
            {showMenu &&<div className='gpt3-navbar-list-container-toggle scale-up-center'>
               <p><a href='#home'>Home</a></p>
@@ -51,7 +51,7 @@ const Navbar = () => {
                 <p><a>Sign in</a></p>
                 <button>Sign up</button>
               </div>
-            </div>}
+          </div>}
           
       
        

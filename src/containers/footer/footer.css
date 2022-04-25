@@ -3,9 +3,11 @@
     color: #ffffff;
     margin: 0 auto;
     margin-top: 10rem;
+    overflow: hidden;
 }
 .footer-heading{
     text-align: center;
+    overflow: hidden;
 }
 .footer-heading h2{
     font-size: 40px;

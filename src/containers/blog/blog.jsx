@@ -9,9 +9,9 @@ const data = {
 const Blog = () => {
   return (
     <div className='gp3blog-section' id='openai'>
-      <h2 className='blog-heading'>A lot is happening, We are blogging about it.</h2>
+      <h2 data-aos="zoom-in-up" data-aos-duration="2000" className='blog-heading'>A lot is happening, We are blogging about it.</h2>
       <div className='gp3-blog-container'>
-        <div className='blog-article1'>
+        <div data-aos="zoom-in-left" data-aos-duration="2000" className='blog-article1'>
           <Article image={blog01} title={data.title} date={data.date}></Article>
         </div>
         <div className='blog-article2'>

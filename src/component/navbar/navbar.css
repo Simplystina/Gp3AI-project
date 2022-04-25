@@ -84,6 +84,7 @@ a,.gpt3-navbar-sign-buttons p{
     padding: 0.7rem 1rem;
     box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
     background-color: var(--color-footer);
+    z-index: 2;
 }
 
 a,.gpt3-navbar-list-container-toggle p{
@@ -124,7 +125,7 @@ a,.gpt3-navbar-list-container-toggle p{
 
 @media screen and (max-width:1100px) {
     .gpt3-navbar{
-        padding: 0 1rem;
+        padding: 0 0.5rem;
     }
 
 }
@@ -151,8 +152,9 @@ a,.gpt3-navbar-list-container-toggle p{
 }
 
 @media screen and (max-width:540px){
-    
-
+    .gpt3-navbar{
+        padding: 0;
+    }
 }
 
 

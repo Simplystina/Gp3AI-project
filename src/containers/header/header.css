@@ -4,6 +4,7 @@
     color: white;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    overflow: hidden;
 }
 .header-image-container{
     margin: 0 auto;
@@ -110,7 +111,7 @@
     }
     
     .header-section{
-        padding: 0px 1rem;
+        padding: 0px 0rem;
     }
     .header-people p{
         font-size: 11px;

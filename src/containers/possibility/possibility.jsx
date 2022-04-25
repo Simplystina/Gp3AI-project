@@ -4,10 +4,10 @@ import './possibility.css'
 const Possibility = () => {
   return (
     <div className='possibility-section'>
-       <div className='image-container'>
+       <div data-aos="fade-up" data-aos-duration="2000" className='image-container'>
          <img src={image} alt="possibility"></img>
        </div>
-       <div className='possibility-contents'>
+       <div data-aos="fade-down-left" data-aos-duration="2000" className='possibility-contents'>
          <h4 className='possibility-heading1'>Request Early Access to Get Started</h4>
          <h2>The possibilities are beyond your imagination</h2>
          <p>Yet bed any for travelling assistance indulgence unpleasing. 

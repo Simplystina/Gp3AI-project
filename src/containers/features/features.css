@@ -4,6 +4,7 @@
     width: 90vw;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .features-heading{

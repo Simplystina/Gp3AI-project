@@ -4,7 +4,7 @@ import logo from './../../assets/logo.svg'
 const Footer = () => {
   return (
     <div className='footer-section'>
-      <div className='footer-heading'>
+      <div data-aos="zoom-in-down" data-aos-duration="2000" className='footer-heading'>
         <h2>Do you want to step into the future before others</h2>
        <button>Request Early Access</button>
       </div>

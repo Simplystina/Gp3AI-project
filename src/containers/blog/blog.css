@@ -2,6 +2,7 @@
     color: hsl(0, 0%, 100%);
     width: 90vw;
     margin: 3rem auto;
+    overflow: hidden;
 }
 
 .blog-heading{

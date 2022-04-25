@@ -7,21 +7,21 @@ import shopify from '../../assets/shopify.png'
 import './brand.css'
 const Brand = () => {
   return (
-    <div className='brand-section'>
+    <div className='brand-section' data-aos="flip-left"  data-aos-duration="2000" >
       <div >
-         <img className='brand-google' src={google}></img>
+         <img className='brand-google' src={google} alt=''></img>
       </div>
       <div>
-         <img className='brand-slack' src={slack}></img>
+         <img className='brand-slack' src={slack} alt=''></img>
       </div>
       <div>
-         <img className='brand-atlassian' src={atlassian}></img>
+         <img className='brand-atlassian' src={atlassian} alt=''></img>
       </div>
       <div>
-         <img className='brand-dropbox' src={dropbox}></img>
+         <img className='brand-dropbox' src={dropbox} alt=''></img>
       </div>
       <div>
-          <img className='brand-shopify' src={shopify}></img>
+          <img className='brand-shopify' src={shopify} alt=''></img>
       </div>
     </div>
   )

@@ -4,6 +4,7 @@
    justify-content: center;
    flex-wrap: wrap;
   align-items: center;
+  overflow: hidden;
 }
 .brand-section div{
     max-width: 150px;

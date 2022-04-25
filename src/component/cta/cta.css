@@ -7,6 +7,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
+    overflow: hidden;
 }
 .cta-section h5{
     font-family: var(--font-family);
@@ -15,7 +16,7 @@
     font-weight: 500;
     line-height: 30px;
     color: #0E0E0E;
-    ;
+    
 }
 .cta-section h4{
     font-family: var(--font-family);
@@ -23,7 +24,9 @@
     font-style: normal;
     font-weight: 800;
     line-height: 45px;
+    overflow: hidden;
 }
+
 .cta-section button{
     font-family: var(--font-family);
     font-size: 18px;

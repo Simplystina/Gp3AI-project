@@ -2,7 +2,7 @@ import React from 'react'
 import './article.css'
 const Article = ({image, date,title}) => {
   return (
-    <div className='article'>
+    <div data-aos="zoom-in-left" data-aos-duration="2000" className='article'>
       <div className='article-img-container'>
          <img src={image}></img>
       </div>
